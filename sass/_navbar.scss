@@ -1,0 +1,92 @@
+// nav{
+//     margin-bottom: 0;
+//     background-color: #27556C;
+//     z-index: 9999;
+//     border: 0;
+//     font-size: 12px !important;
+//     line-height: 1.42857143 !important;
+//     letter-spacing: 4px;
+//     border-radius: 0;
+//     font-family: myFont;
+//     .navbar-brand{
+//         img{
+//             width: 50px;
+//             height: 50px;
+//         }
+//     }
+        
+// }
+nav{
+    .navbar-brand{
+        img{
+            width: 50px;
+            height: 50px;
+            background-color: whitesmoke;
+            border-radius: 3px;
+        }
+    }
+        
+}
+// .scrollspy-lubara {
+//     position: relative;
+//     overflow-y: scroll;
+//     height: 200px; 
+// }
+.top-nav-collapse {
+    background-color: $color-verde-basico !important;
+    
+}
+//Cuando el scroll está arriba se hace transparente el menú
+.navbar:not(.top-nav-collapse) {
+    //background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        //background: $color-verde-basico !important;
+    }
+}
+
+
+
+.jarallax {
+    height: 1000px;
+    background-image: url('../content/images/Lubara_Foto2.jpg') ;
+    background-size: cover;
+}
+.intro-info-content{
+    div{
+        img{
+            width: 2em;
+            height: 2em;
+        }
+    }
+//     background-color: rgba(255, 255, 255, 0.4);
+//    padding: 0.5rem;
+//    div{
+//     padding: 0rem;
+//    }
+}
+// @media (max-width: 740px) {
+//     .jarallax {
+//         height: 300px;
+//     }
+//     .text-lubara{
+//         font-size: 2.8rem;
+//     }
+//     .text-sublubara{
+//         font-size: 1rem;
+//         color: white !important;
+//     }
+//     .intro-info-content{
+//         background-color: transparent;
+//     }
+// }
+
+// @media (min-width: 769px) and (max-width: 1025px) {
+//     .jarallax {
+//         height: 500px;
+//     }
+// }
+      
+

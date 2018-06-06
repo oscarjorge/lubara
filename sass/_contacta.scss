@@ -1,0 +1,35 @@
+.form-header{
+    background-color: $color-verde-basico;
+    
+    text-align:center;
+    margin-top:-50px;
+    padding: 1rem;
+    border-radius:2px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}   
+.text-header {
+    color:#fff !important;
+}
+.form-body{
+    margin-top: 10px;
+}
+.icon-contacta{
+    color:$color-verde-basico-2;
+}
+.list-unstyled{
+    text-align: center !important;
+    li{
+        i{
+            color: $color-verde-basico-2;
+        }
+    }
+}
+input.error{
+    border-color: red;
+}
+textarea.error{
+    border-color: red;
+}
+#btnEnviar{
+    background-color: $color-verde-basico-2;
+}

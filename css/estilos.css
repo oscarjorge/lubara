@@ -1,0 +1,230 @@
+a.button-facebook {
+  background-color: #2b4170;
+  /* fallback color */
+  background: -moz-linear-gradient(top, #3b5998, #2b4170);
+  background: -ms-linear-gradient(top, #3b5998, #2b4170);
+  background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+  border: 1px solid #2b4170;
+  text-shadow: 0 -1px -1px #1f2f52; }
+
+a.button-facebook:hover {
+  background-color: #3b5998;
+  /* fallback color */
+  background: -moz-linear-gradient(top, #2b4170, #3b5998);
+  background: -ms-linear-gradient(top, #2b4170, #3b5998);
+  background: -webkit-linear-gradient(top, #2b4170, #3b5998); }
+
+a.button-linkedin {
+  background-color: #0073b2;
+  /* fallback color */
+  background: -moz-linear-gradient(top, #009cda, #0073b2);
+  background: -webkit-linear-gradient(top, #009cda, #0073b2);
+  border: 1px solid #0073b2;
+  text-shadow: 0 -1px -1px #005486; }
+
+a.button-linkedin:hover {
+  background-color: #009cda;
+  /* fallback color */
+  background: -moz-linear-gradient(top, #0073b2, #009cda);
+  background: -ms-linear-gradient(top, #0073b2, #009cda);
+  background: -webkit-linear-gradient(top, #0073b2, #009cda); }
+
+a.button-dribbble,
+a.button-facebook,
+a.button-googleplus,
+a.button-linkedin,
+a.button-pinterest,
+a.button-rss,
+a.button-tumblr,
+a.button-twitter {
+  border-radius: 25px;
+  box-shadow: 0 1px 1px #999;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px 15px;
+  padding: 0.5em;
+  text-align: center; }
+
+body {
+  background-color: white;
+  font-family: "Century Gothic"; }
+
+.marco {
+  margin: auto; }
+  @media screen and (min-width: 900px) {
+    .marco {
+      width: 90%; } }
+  @media screen and (min-width: 1000px) {
+    .marco {
+      width: 85%; } }
+  @media screen and (min-width: 1100px) {
+    .marco {
+      width: 80%; } }
+  @media screen and (min-width: 1200px) {
+    .marco {
+      width: 70%; } }
+  @media screen and (min-width: 1400px) {
+    .marco {
+      width: 60%; } }
+
+.slideanim {
+  visibility: hidden; }
+
+.icono-lg {
+  font-size: 5em !important;
+  color: #518749; }
+  @media screen and (max-width: 576px) {
+    .icono-lg {
+      font-size: 3em !important; } }
+
+.bloque {
+  padding: 5em; }
+  .bloque h2, .bloque h3, .bloque h4 {
+    color: #3B6137; }
+  @media screen and (max-width: 576px) {
+    .bloque {
+      padding: 1em; }
+      .bloque h5 {
+        font-size: 0.85em; }
+      .bloque h2 {
+        font-size: 1.25em; } }
+
+.bloque-servicio h3, .bloque-servicio h4 {
+  color: #3B6137; }
+@media screen and (max-width: 576px) {
+  .bloque-servicio {
+    padding: 1em; }
+    .bloque-servicio h4 {
+      font-size: 1.05em; }
+    .bloque-servicio h3 {
+      font-size: 1.15em; } }
+
+@media screen and (max-width: 576px) {
+  .contenido-subbloque li {
+    font-size: 0.85em; } }
+
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px; }
+
+#experiencia {
+  background-color: #EFEFEF; }
+
+.rotate {
+  color: #3B6137;
+  cursor: pointer;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+
+.rotate.down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 3px; }
+
+.top-nav-collapse {
+  background-color: #3B6137 !important; }
+
+.jarallax {
+  height: 1000px;
+  background-image: url("../content/images/Lubara_Foto2.jpg");
+  background-size: cover; }
+
+.intro-info-content div img {
+  width: 2em;
+  height: 2em; }
+
+#logo-carousel {
+  width: 80px;
+  height: 80px; }
+
+#carousel-example-2 {
+  margin-top: 70px; }
+
+@media (max-width: 575px) {
+  #logo-carousel {
+    width: 50px;
+    height: 50px; }
+
+  .carousel-item .view img {
+    height: 300px;
+    -webkit-filter: grayscale(10%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(10%); }
+  .carousel-item .carousel-caption p {
+    font-size: 12px; } }
+@media (min-width: 576px) {
+  .carousel-item .view img {
+    height: 400px; }
+  .carousel-item .carousel-caption p {
+    font-size: 13px; } }
+@media (min-width: 768px) {
+  .carousel-item .view img {
+    height: 400px; }
+  .carousel-item .carousel-caption p {
+    font-size: 14px; } }
+@media (min-width: 992px) {
+  .carousel-item .view img {
+    height: 500px; } }
+@media (min-width: 1200px) {
+  #carousel-example-2 {
+    margin-top: 70px; }
+
+  .carousel-item .view img {
+    height: 500px; } }
+.form-header {
+  background-color: #3B6137;
+  text-align: center;
+  margin-top: -50px;
+  padding: 1rem;
+  border-radius: 2px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.text-header {
+  color: #fff !important; }
+
+.form-body {
+  margin-top: 10px; }
+
+.icon-contacta {
+  color: #518749; }
+
+.list-unstyled {
+  text-align: center !important; }
+  .list-unstyled li i {
+    color: #518749; }
+
+input.error {
+  border-color: red; }
+
+textarea.error {
+  border-color: red; }
+
+#btnEnviar {
+  background-color: #518749; }
+
+#lubaraFooter {
+  background-color: #3B6137; }
+
+.condiciones #logo-condiciones {
+  height: 150px;
+  width: 150px; }
+.condiciones .titulo {
+  color: red;
+  text-align: center; }
+.condiciones .subtitulo {
+  color: gray; }
+.condiciones .negrita {
+  font-weight: bold; }
+.condiciones .rojo {
+  color: red; }
+
+/*# sourceMappingURL=estilos.css.map */

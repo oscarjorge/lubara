@@ -1,0 +1,99 @@
+body{
+    background-color: $color_fondo;
+    font-family: $font;
+    
+}
+.marco{
+   
+    margin:auto;
+    @media screen and (min-width: 900px) {
+        width: 90%;
+    }
+    @media screen and (min-width: 1000px) {
+        width: 85%;
+    }
+    @media screen and (min-width: 1100px) {
+        width: 80%;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 70%;
+    }
+    @media screen and (min-width: 1400px) {
+        width: 60%;
+    }
+   
+}
+.slideanim {
+    visibility: hidden;
+}
+.icono-lg{
+    font-size:$icono-size !important;
+    color: $color-verde-basico-2;
+    @media screen and (max-width: $break-sm) {
+        font-size:$icono-size-xs !important;
+    }
+}
+.bloque{
+   h2, h3, h4{
+       color:$color-verde-basico;
+   }
+    padding: 5em;
+    @media screen and (max-width: $break-sm) {
+        padding: 1em;
+        h5{
+            font-size: $font-size-xs-h5
+        }
+        h2{
+            font-size: $font-size-xs-h2
+        }
+    }
+
+
+}
+.bloque-servicio{
+    h3, h4{
+        color:$color-verde-basico;
+    }
+     @media screen and (max-width: $break-sm) {
+         padding: 1em;
+         h4{
+             font-size: $font-size-xs-h4
+         }
+         h3{
+             font-size: $font-size-xs-h3
+         }
+     }
+ }
+ .contenido-subbloque{
+    @media screen and (max-width: $break-sm) {
+     li{
+        font-size: $font-size-xs-h5
+     }
+    }
+ }
+.avatar{
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        padding: 10px;
+    }
+}
+#experiencia{
+    
+    background-color: $color-alternated-bloque;
+    
+}
+
+.rotate{
+    color:$color-verde-basico; 
+    cursor: pointer;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
