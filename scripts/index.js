@@ -78,14 +78,14 @@ function sendMail(nombre, mail, asunto, mensaje) {
         $('#btnEnviar>i').toggleClass('fa-paper-plane-o fa-spinner fa-pulse');
         $('#sobre').toggleClass('fa-envelope fa-envelope-open');
         var parametros = {
-            "nombre": nombre,
-            "mail": mail,
-            "asunto": asunto,
-            "mensaje": mensaje,
+            "Nombre": nombre,
+            "Email": mail,
+            "Asunto": asunto,
+            "Mensaje": mensaje,
         };
         $.ajax({
             data: parametros,
-            url: 'send.php',
+            url: 'http://apiescribano.antonioescribano.es/api/contacto/EnviarMailComentarioProfile',
             type: 'POST',
 
             success: function (response) {
