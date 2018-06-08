@@ -85,7 +85,7 @@ function sendMail(nombre, mail, asunto, mensaje) {
         };
         $.ajax({
             data: parametros,
-            url: 'http://apiescribano.antonioescribano.es/api/contacto/EnviarMailComentarioProfile',
+            url: 'http://apiescribano.antonioescribano.es/api/contacto/EnviarMailComentarioLubara',
             type: 'POST',
 
             success: function (response) {
