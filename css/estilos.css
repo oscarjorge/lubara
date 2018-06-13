@@ -227,4 +227,11 @@ textarea.error {
 .condiciones .rojo {
   color: red; }
 
+.legal #logo-condiciones {
+  height: 150px;
+  width: 150px; }
+.legal .titulo {
+  color: red;
+  text-align: center; }
+
 /*# sourceMappingURL=estilos.css.map */
